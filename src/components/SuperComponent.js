@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import State from "../state";
 
 function SuperComponent(props) {
   let content = "";
@@ -27,6 +28,5 @@ SuperComponent.propTypes = {
   product: PropTypes.object,
   products: PropTypes.array,
   names: PropTypes.array
-
 };
 export default SuperComponent;
